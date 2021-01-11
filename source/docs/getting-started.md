@@ -1,6 +1,6 @@
 ---
-title: Installation
-description: Sculptor devops installation
+title: Getting-started
+description: Getting Started
 extends: _layouts.documentation
 section: content
 ---

@@ -1,9 +1,18 @@
 @tailwind base;
 @tailwind components;
 
+@import 'theme';
+
 // Code syntax highlighting,
 // powered by https://highlightjs.org
-@import '~highlight.js/styles/a11y-light.css';
+// @import '~highlight.js/styles/gradient-dark.css';
+@import '~highlight.js/styles/shades-of-purple.css';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 
 @import 'base';
 @import 'navigation';

@@ -4,6 +4,7 @@ return [
     'Getting Started' => 'docs/getting-started',
     'Analisi dei requisiti' => 'docs/requirements',
     'Infrastruttura' => 'docs/infrastructure',
+    'Architettura' => 'docs/architecture',
     'Microservices' => [
         'url' => 'docs/microservices',
         'children' => [

@@ -5,4 +5,4 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Web dashboard
+{!! file_get_contents('https://raw.githubusercontent.com/almatrasporti/web-dashboard/master/README.md') !!}

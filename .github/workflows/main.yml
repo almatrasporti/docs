@@ -29,6 +29,6 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source-directory: 'build_production'
-        destination-github-username: 'robertogallea'
+        destination-github-username: 'almatrasporti'
         destination-repository-name: 'almatrasporti.github.io'
         user-email: write@robertogallea.com
