@@ -69,7 +69,7 @@
                     <br class="hidden sm:block">e prevedi i consumi per un <strong>risparmio immediato</strong>.
                 </p>
 
-                <div class="flex my-10">
+                <div class="flex-row lg:flex-col my-10">
                     <a href="http://almatrasporti.cloud" target="_blank" title="Almatrasporti getting started"
                        class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">
                         Vai alla Demo 🚀
@@ -79,10 +79,11 @@
                        class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded mr-4 py-2 px-6">
                         Documentazione <i class="fas fa-book"></i>
                     </a>
-
+                </div>
+                <div class="flex-row lg:flex-col my-10">
                     <a href="/docs/deep-learning-model" title="Analisi dei requisiti"
                        class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded mr-4 py-2 px-6">
-                        Deep learning model <i class="fas fa-robot"></i>
+                        Deep learning <i class="fas fa-robot"></i>
                     </a>
 
                     <a href="https://github.com/almatrasporti" target="_blank" title="Analisi dei requisiti"
