@@ -70,14 +70,24 @@
                 </p>
 
                 <div class="flex my-10">
-                    <a href="/docs/getting-started" title="Almatrasporti getting started"
+                    <a href="http://almatrasporti.cloud" target="_blank" title="Almatrasporti getting started"
                        class="bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded mr-4 py-2 px-6">
-                        Inizia 🚀
+                        Vai alla Demo 🚀
                     </a>
 
-                    <a href="/docs/requirements" title="Analisi dei requisiti"
-                       class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded py-2 px-6">
-                        Analisi dei requisiti
+                    <a href="/docs/getting-started" title="Analisi dei requisiti"
+                       class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded mr-4 py-2 px-6">
+                        Documentazione <i class="fas fa-book"></i>
+                    </a>
+
+                    <a href="/docs/deep-learning-model" title="Analisi dei requisiti"
+                       class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded mr-4 py-2 px-6">
+                        Deep learning model <i class="fas fa-robot"></i>
+                    </a>
+
+                    <a href="https://github.com/almatrasporti" target="_blank" title="Analisi dei requisiti"
+                       class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded mr-4 py-2 px-6">
+                        Codice sorgente <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'Getting Started' => 'docs/getting-started',
+    'Ecosistema' => 'docs/getting-started',
     'Analisi dei requisiti' => 'docs/requirements',
     'Architettura' => 'docs/architecture',
     'Infrastruttura' => 'docs/infrastructure',
