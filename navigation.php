@@ -3,8 +3,8 @@
 return [
     'Getting Started' => 'docs/getting-started',
     'Analisi dei requisiti' => 'docs/requirements',
-    'Infrastruttura' => 'docs/infrastructure',
     'Architettura' => 'docs/architecture',
+    'Infrastruttura' => 'docs/infrastructure',
     'Microservices' => [
         'url' => 'docs/microservices',
         'children' => [
