@@ -14,7 +14,7 @@ installati tramite container docker.
 Per il corretto funzionamento, Almatrasporti necessità di un sistema (Linux, Mac o Windows) con le seguenti dipendenze 
 installate:
 
-- [Kafka + Zookeeper](/docs/getting-started/infrastructure) (istanze singole o multiple), file docker compose incluso
+- [Kafka + Zookeeper](/docs/infrastructure) (istanze singole o multiple), file docker compose incluso
 - Server MongoDB
 - Server Redis
 - PHP 7.3+
