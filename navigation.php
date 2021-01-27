@@ -8,6 +8,7 @@ return [
     'Microservices' => [
         'url' => 'docs/microservices',
         'children' => [
+            'common' => 'docs/microservices/common',
             'Injector' => 'docs/microservices/injector',
             'ETL Livello 1' => 'docs/microservices/etl_l1',
             'ETL Livello 2' => 'docs/microservices/etl_l2',
