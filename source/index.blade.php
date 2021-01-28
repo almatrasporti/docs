@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="Beautiful &amp; Automated Server Administrator">
+    <meta name="description" content="Soluzione integrata per il tracking di veicoli">
 
     <meta property="og:site_name" content="Almatrasporti"/>
     <meta property="og:title" content="Almatrasporti"/>
-    <meta property="og:description" content="Beautiful &amp; Automated Server Administrator"/>
-    <meta property="og:url" content="https://sculptor-devops.github.io/"/>
+    <meta property="og:description" content="Soluzione integrata per il tracking di veicoli"/>
+    <meta property="og:url" content="https://almatrasporti.github.io/"/>
     <meta property="og:image" content="/assets/img/logo.png"/>
     <meta property="og:type" content="website"/>
 
@@ -19,7 +19,7 @@
 
     <title>Almatrasporti</title>
 
-    <link rel="home" href="https://sculptor-devops.github.io">
+    <link rel="home" href="https://almatrasporti.github.io">
     <link rel="icon" href="/favicon.ico">
 
 
