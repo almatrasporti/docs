@@ -13,10 +13,10 @@ La seguente figura mostra l'Architettura generale del Sistema:
 
 - **Apache Kafka**: broker per lo scambio di messaggi fra i microservizi;
   
-- **Data source**: la sorgente dati usata per la generazione degli eventi (i.e. le centraline a bordo dei veicoli);
+- **Data source**: sorgenti dati usata per la generazione degli eventi (i.e. le centraline a bordo dei veicoli);
   
-- **Injector**: microservizio con funzione di hub per la raccolta degli eventi grezzi dal Data Source e l'immissione sul
-broker;
+- **Injector**: microservizio con funzione di hub per la raccolta degli eventi grezzi dalle Data Source e successiva 
+  immissione presso il broker, su rami specifici per ogni veicolo della flotta;
   
 - **ETL_L1**: microservizio per la lettura dei messaggi grezzi dal broker, li converte in formato JSON e li deposita su altri 
   due differenti topic del broker, uno finalizzato all'elaborazione batch ed uno a quella real-time;
@@ -32,7 +32,7 @@ broker;
 - **Redis**:  server Redis per lo storage in-memory dei dati;
   
 - **Machine Learning**: modulo Python per la generazione ed il serving di un modello di machine learning per la 
-  predizione dei consumi;  
+  predizione dei consumi, a partire dai dati presente su MongoDB;  
   
-- **Web/mobile application**: applicativo web per la consultazione dei dati ricevuti in tempo reale e per l'ispezione 
-  dello stato dei servizi del sistema.  
+- **Web/mobile application**: applicativo web per la visualizzazione dei dati ricevuti in tempo reale da Redis e per 
+  l'ispezione dello stato dei servizi del sistema.  

@@ -11,7 +11,7 @@ In questa sezione viene illustrata una generica analisi dei requisiti per il sis
 
 ## Introduzione
 
-AlmaTrasporti è un’azienda specializzata in trasporti e logistica, ha diverse sedi sul territorio italiano ed estero
+Almatrasporti è un’azienda specializzata in trasporti e logistica, ha diverse sedi sul territorio italiano ed estero
 ed un buon fatturato annuo. Di recente ha deciso di investire nelle nuove tecnologie, in particolare afferenti
 agli ambiti IoT e Big Data & AI. Obiettivo dell’azienda è quello di efficientare i consumi della propria flotta di
 autovetture acquisendo conoscenza dai dati per poi prendere decisioni consapevoli e mirate al risparmio.
@@ -41,7 +41,9 @@ tracking in tempo reale dei veicoli della flotta.
 Il sistema deve realizzare le seguenti funzionalità:
 
 - Effettuare la raccolta dati dai veicoli;
+  
 - Effettuare lo storage dei dati per la successiva elaborazione sia in tempo reale che in modalità batch;
+  
 - Implementare tecniche di IA/ML per effettuare predizioni dei consumi sulla base delle serie storiche dei consumi.
 
 ### Requisiti non funzionali
@@ -49,31 +51,28 @@ Ulteriori requisiti che devono essere soddisfatti dal sistema sono i seguenti:
 
 **Affidabilità**:
 
-- garanzia di corretta trasmissione dei messaggi nella medesima sequenza in cui sono stati ricevuti;
-- rimozione eventuali messaggi duplicati prima dell'elaborazione;
-- tolleranza ai malfunzionamenti (se una parte del sistema viene meno, il normale funzionamento deve riprendere al 
-  suo ripristino) ;
-- possibilità di effettuare nuovamente il playback dei messaggi in caso di perdita dati, secondo il modello di _Event 
+- Garanzia di corretta trasmissione dei messaggi nella medesima sequenza in cui sono stati ricevuti;
+  
+- Rimozione eventuali messaggi duplicati prima dell'elaborazione;
+  
+- Tolleranza ai malfunzionamenti (se una parte del sistema viene meno, il normale funzionamento deve riprendere al 
+  suo ripristino);
+  
+- Possibilità di effettuare nuovamente il playback dei messaggi in caso di perdita dati, secondo il modello di _Event 
   Projection_ e _CQRS_.
   
 **Performance**:
 
-- possibilità scalare le performance aumentando il numero di risorse/servizi.
-- esecuzione di alcune elaborazioni in modalità real-time o near real-time.
+- Possibilità di scalare le performance aumentando il numero di risorse/servizi.
+  
+- Esecuzione di alcune elaborazioni in modalità real-time o near real-time.
 
 **Implementazione**:
 
 - Utilizzo, ove possibile, di sistemi a container, Infrastructure as Code ed altre prassi DevOpsSec.
+  
 - Realizzazione mediante microservizi al fine di ottenere il massimo disaccoppiamento fra le componenti del Sistema.
 
 **Interfaccia**:
 
 - Interrogazione del sistema mediante interfaccia web.
-
-
-### Modello del sistema
-
-**Scenari**
-
-
-### Glossario

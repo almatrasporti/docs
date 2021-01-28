@@ -29,6 +29,7 @@ installate:
 ## Tool proprietari
 Per il corretto funzionamento è necessario inoltre includere i seguenti strumenti proprietari:
 
-- **Servizi Java proprietari** ([Injector](/docs/microservices/injector), [ETL_L1](/docs/microservices/etl_l1), [ETL_L2](/docs/microservices/etl_l2), [ETL_L3](/docs/microservices/etl_l3), [PredictionService](/docs/microservices/predictor));
+- **Servizi Java proprietari** ([Injector](/docs/microservices/injector), [ETL_L1](/docs/microservices/etl_l1), [ETL_L2](/docs/microservices/etl_l2), [ETL_L3](/docs/microservices/etl_l3))
+- **Servizio Python proprietario** [PredictionService](/docs/microservices/predictor);
 - **[Dashboard Webapp](/docs/web-dashboard)** per la visualizzazione dei dati in real-time;
 - **Notebook Jupyter** per l'[analisi dei dati](/docs/deep-learning-model/analysis) e per la [generazione del modello di predizione](/docs/deep-learning-model/model-building).
