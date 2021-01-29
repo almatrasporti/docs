@@ -24,4 +24,5 @@ return [
         ]
     ],
     'Web dashboard' => 'docs/web-dashboard',
+    'Documentazione' => 'docs/documentation',
 ];
