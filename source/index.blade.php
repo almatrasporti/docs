@@ -47,7 +47,10 @@
         <div class="flex flex-1 justify-end items-center text-right md:pl-10">
         </div>
         <div class="ml-2 mt-1">
-            <a href="https://github.com/almatrasporti" target="_blank">
+            <a class="mr-4" href="http://almatrasporti.cloud" target="_blank" title="Applicazione Demo">
+                <i class="fab fa-laravel fa-2x"></i>
+            </a>
+            <a href="https://github.com/almatrasporti" target="_blank" title="Repository GitHub">
                 <i class="fab fa-github fa-2x"></i>
             </a>
         </div>
