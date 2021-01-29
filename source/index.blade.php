@@ -202,12 +202,8 @@
 <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
     <ul class="flex flex-col md:flex-row justify-center">
         <li class="md:mr-2">
-            idea by <a href="#" title="Unipa Big Data">Unipa Big Data</a> &copy; 2021.
+            progetto e sviluppo di <a href="#" title="Unipa Big Data">Antonio Alampi, Miriam Daniele, Roberto Gallea, Salvatore Marcantonio</a> - Unipa Big Data &copy; 2021.
         </li>
-
-{{--        <li class="md:mr-2">--}}
-{{--            Vai su <a href="/docs/about/" title="Alessandro Cappellozza">About</a> per maggiori informazioni--}}
-{{--        </li>--}}
     </ul>
 </footer>
 </body>
